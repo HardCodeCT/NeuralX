@@ -2,7 +2,7 @@
 
 A real-time screen-streaming pipeline for Windows: capture → change/motion detection → adaptive encoding → TCP transport → AI-upscaled reconstruction.
 
-NeuralX is split into two standalone binaries — a **sender** that captures and streams the display, and a **receiver** that reconstructs and optionally upscales it — communicating over a small custom protocol on `127.0.0.1:5000`. Built as a personal/local tool, not a multi-viewer server: one sender, one receiver, one connection.
+NeuralX is split into two standalone binaries,  a **sender** that captures and streams the display, and a **receiver** that reconstructs and optionally upscales it, communicating over a small custom protocol on `127.0.0.1:5000`. Built as a personal/local tool, not a multi-viewer server: one sender, one receiver, one connection.
 
 ---
 
