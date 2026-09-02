@@ -1,0 +1,12 @@
+./configure \
+  --disable-everything \
+  --enable-encoder=mjpeg \
+  --enable-decoder=mjpeg \
+  --enable-decoder=rawvideo \
+  --enable-encoder=ffv1 --enable-decoder=ffv1 \
+  --enable-swscale \
+  --disable-doc \
+  --disable-debug \
+  --enable-optimizations \
+  --extra-cflags="-O3 -march=native -flto" \
+  --extra-ldflags="-flto"
